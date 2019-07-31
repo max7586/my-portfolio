@@ -157,7 +157,7 @@ p {
   height: 60px;
   float: center;
   padding: 4px;
-  
+  transform: rotate(-45deg);
 }
 .contactMe-img:hover {
   background: #2e3de6;
@@ -233,6 +233,7 @@ padding: 50px;
   margin: 10px;
   text-decoration: none;
   font-family: 'Merriweather', serif;
+  
 }
 .cr {
   color: #f9f7f7;
@@ -242,16 +243,26 @@ padding: 50px;
 .butn {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
-  border-radius: 8px;
+  border-radius: 20px;
   font-family: 'Merriweather', serif;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 0px;
   background: #3498db;
   padding: 10px ;
   /* margin: 10px; */
   /* text-decoration: center; */
   /* text-align: center; */
   margin: 15px;
+  display: inline-block;
+  *display: inline;
+  /* Used to get IE 6 & 7 to behave */
+  zoom: 1;
+  /* Used to get IE 6 & 7 to behave */
+  
+  transform: rotate(45deg);
+  
+  
+  
 }
 
 .butn:hover {
