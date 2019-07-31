@@ -1,0 +1,372 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+
+ 
+
+}
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #ebcbc7;
+}
+
+.menu {
+  background: linear-gradient(to bottom, #6c56d5, #ebcbc7);
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  max-height: 100px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+}
+
+.nav-items {
+  /* display: inline-flex; */
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+  
+}
+.nav-item {
+  list-style: none;
+  margin: 0 50px ;
+  cursor:pointer;
+  top: 40px;
+  right:0px;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+   background-image: linear-gradient(#6b3b9b, #6b3b9b),
+   radial-gradient(circle at center, #d02b19, #1e2ce9);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  /* transform: rotate(45deg); */
+}
+.nav-item span {
+  display: block;
+  padding: 8px 12px;
+}
+.nav-link {
+   color: #fff;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #2d83ed;
+  font-weight: normal;
+  padding: 5px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f72af;
+  text-align: center;
+  margin: 15px 10px 30px 10px ;
+
+}
+
+a {
+  color: #250755;
+
+}
+a:hover {
+  color: #ffffff;
+}
+hr {
+color: #dbe2ef;
+border-width: 8px 0 0 0;
+border-style: dotted;
+width: 6%;
+margin: 80px auto;
+}
+p {
+  line-height: 2;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-me {
+  padding: 50px;
+  margin: 20px;
+ 
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.about-row {
+  width:100%;
+  margin: 50px 50px;
+  text-align: left;
+
+/* border: black 1px solid; */
+}
+
+.skill-row {
+  width: 20%;
+  margin: 50px 50px;;
+  text-align: center;
+
+  /* border: black 1px solid; */
+}
+
+.about-img {
+  /* border-radius: 100%; */
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+
+}
+.project-link-logo {
+  width: 30px;
+ 
+  margin: 30px;
+}
+
+.skill-img {
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+    float: center;
+    margin-right: 30px;
+}
+.contactMe-img {
+  border-radius: 15%;
+  width: 60px;
+  height: 60px;
+  float: center;
+  padding: 4px;
+  
+}
+.contactMe-img:hover {
+  background: #2e3de6;
+  background-image: -webkit-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: -moz-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: -ms-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: -o-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: linear-gradient(to bottom, #2e3de6, #2733d9);
+  text-decoration: none;
+}
+
+.top-container {
+  /* background-color: black; */
+  /* position: relative; */
+  padding: 100px 0;
+  background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+.top-container div {
+  position: relative;
+}
+
+.middle-container h2 {
+  padding: 2rem;
+}
+
+.top-container div::after {
+  background-color: #563d7c;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+ flex-wrap: wrap;
+ align-content:center;
+ /* align-items: stretch; */
+ justify-content: center;
+}
+
+.skills {
+    /* display: inline-flex;
+    margin: 20px auto; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content:center;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.bottom-container {
+background: linear-gradient(to bottom, #ebcbc7, #6c56d5);
+padding: 50px;
+
+}
+
+.footer-link {
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+.cr {
+  color: #f9f7f7;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.butn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 30px;
+  background: #3498db;
+  padding: 10px ;
+  /* margin: 10px; */
+  /* text-decoration: center; */
+  /* text-align: center; */
+  margin: 15px;
+}
+
+.butn:hover {
+  background: #2e3de6;
+  background-image: -webkit-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: -moz-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: -ms-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: -o-linear-gradient(top, #2e3de6, #2733d9);
+  background-image: linear-gradient(to bottom, #2e3de6, #2733d9);
+  text-decoration: none;
+}
+#myName {
+  font-size: 4rem;
+  color:white;
+  margin: 120px auto 120px auto;
+  
+  /* font-family: 'Sacramento', cursive; */
+
+}
+
+
+.caption {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project {
+  width: 315px;
+  height: 600px;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgb(68, 0, 68);
+}
+
+.project:hover {
+  transform: scale(1.02);
+  transition: all 0.5s ease;
+}
+.iconbox {
+  text-align: center;
+  
+}
+.iconbox a {
+  margin: 15px;
+
+}
+.techIcons {
+  width: 100px;
+
+}
+
+@media screen and (min-width: 700px) {
+  .project-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .myName {
+  font-size: 4.8rem;
+  color:white;
+  margin: 120px auto 120px auto;
+  
+  /* font-family: 'Sacramento', cursive; */
+
+}
+.about-img {
+ 
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.about-row {
+  width: 20%;
+  margin: 50px 50px;
+  text-align: left;
+
+  /* border: black 1px solid; */
+}
+}
+
+
+
+
+.screenshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 250px;
+  border-radius: 4px;
+}
+
+.mathQuiz {
+  background-color: rgb(210, 222, 245);
+}
+
+.mathQuiz:hover {
+  background-color: rgb(234, 232, 250);
+}
+
+.myBookMark {
+  background-color: rgb(210, 222, 245);
+}
+
+.myBookMark:hover {
+  background-color: rgb(234, 232, 250);
+}
