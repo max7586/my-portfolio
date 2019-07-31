@@ -263,7 +263,7 @@ padding: 50px;
   background-image: linear-gradient(to bottom, #2e3de6, #2733d9);
   text-decoration: none;
 }
-#myName {
+.myName {
   font-size: 4rem;
   color:white;
   margin: 120px auto 120px auto;
