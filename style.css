@@ -100,6 +100,9 @@ margin: 80px auto;
 }
 p {
   line-height: 1.5;
+  text-align: center;
+}
+.about-row p {
   text-align: justify;
 }
 .intro {
