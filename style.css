@@ -73,7 +73,7 @@ h2 {
   font-size: 2.5rem;
   color: #2d83ed;
   font-weight: normal;
-  padding: 5px;
+  padding: 10px;
 }
 
 h3 {
@@ -92,11 +92,12 @@ a:hover {
   color: #ffffff;
 }
 hr {
-color: #dbe2ef;
+color: #ebcbc7;
 border-width: 8px 0 0 0;
 border-style: dotted;
 width: 6%;
 margin: 80px auto;
+/* display: none; */
 }
 p {
   line-height: 1.5;
@@ -326,8 +327,12 @@ padding: 50px;
   margin-right: auto;
   /* margin-bottom: 10px; */
   width: 300px;
-  height: 400px;
+  /* height: 0; */
   border-radius: 4px;
+  overflow: hidden;
+  /* height: 0; */
+  /* padding-top: 56.25%; */
+  
 }
 
 .mathQuiz {
